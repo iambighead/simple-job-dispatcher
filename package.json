@@ -1,6 +1,6 @@
 {
   "name": "simple-job-dispatcher",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "simple in-process job dispatcher",
   "main": "index.js",
   "scripts": {
