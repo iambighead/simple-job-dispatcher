@@ -5,7 +5,7 @@
 Curent Version 0.0.1
 
 simple-job-dispatcher is a simple in-process job dispatcher. This is probably
-useful only if the job you going to do is async, as all jobs are still executied
+useful only if the job you going to do is async, as all jobs are still executed
 in single event-loop. If you job is synchronus, it might be easier just to use a
 simple loop.
 
