@@ -32,6 +32,7 @@ const dispatcherFactory = function () {
         throw ("no dispatch function defined, call .setDispatchFn() first");
     };
 
+    // init - set max parallel processing and worker function
     dispatcherFactory.prototype.init = function (max_load = 5, fn = null) {
         this.max_load = max_load;
         // console.log(`max_load = ${max_load}`);
@@ -41,6 +42,7 @@ const dispatcherFactory = function () {
 
     };
 
+    // add job, you must specify a callback
     dispatcherFactory.prototype.addJob = function (job, callback) {
         let queue_obj = {
             job: job,
@@ -51,6 +53,7 @@ const dispatcherFactory = function () {
         dequeue.call(this);
     };
 
+    // get queue and loading status
     dispatcherFactory.prototype.getStats = function () {
         return {
             queue_count: this.queue.length,
