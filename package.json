@@ -1,0 +1,24 @@
+{
+  "name": "simple-job-dispatcher",
+  "version": "0.0.1",
+  "description": "simple in-process job dispatcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iambighead/simple-job-dispatcher.git"
+  },
+  "keywords": [
+    "nodejs",
+    "job",
+    "dispatcher"
+  ],
+  "author": "iambighead",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iambighead/simple-job-dispatcher/issues"
+  },
+  "homepage": "https://github.com/iambighead/simple-job-dispatcher#readme"
+}
