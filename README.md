@@ -2,7 +2,7 @@
 
 ## Description
 
-Curent Version 0.0.1
+Curent Version 0.0.2
 
 simple-job-dispatcher is a simple in-process job dispatcher. This is probably
 useful only if the job you going to do is async, as all jobs are still executed
