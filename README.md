@@ -1,4 +1,8 @@
-# Description
+# simple-job-dispatcher
+
+## Description
+
+Curent Version 0.0.1
 
 simple-job-dispatcher is a simple in-process job dispatcher. This is probably
 useful only if the job you going to do is async, as all jobs are still executied
@@ -67,7 +71,6 @@ There is an exmaple.js provided, which also shown below.
 Running it shall give you result like below
 
     % node example.js 
-    max_load = 2
     received job: {"id":1,"data":"something"}
     received job: {"id":2,"data":"something"}
     { queue_count: 2, loading: 2 }
